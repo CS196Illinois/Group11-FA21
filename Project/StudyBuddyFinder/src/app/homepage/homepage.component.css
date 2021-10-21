@@ -1,0 +1,15 @@
+.main {
+    text-align: center;
+    margin: 0;
+    position: absolute;    
+}
+.c1 {
+    padding: 14px 28px;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 6pt;
+    width: 500px;
+    align-items: center;
+    background-color:mistyrose;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}

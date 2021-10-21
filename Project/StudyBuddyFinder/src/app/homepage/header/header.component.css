@@ -1,0 +1,28 @@
+.cal {
+    padding: 14px 28px;
+    font-size: 16px;
+    margin-left: 4pt;
+    margin-right: 5pt;
+    width: 700px;
+    background-color:silver;
+    margin-bottom: 25pt;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.settings {
+    padding: 14px 28px;
+    font-size: 16px;
+    margin-right: 4pt;
+    width: 700px;
+    background-color:silver;
+    margin-bottom: 25pt;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.title{
+    font-size: 30px;
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+}
+
