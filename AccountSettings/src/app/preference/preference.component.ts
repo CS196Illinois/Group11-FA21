@@ -5,5 +5,7 @@ import { Component } from '@angular/core';
     templateUrl: './preference.component.html'
 })
 export class PreferenceComponent {
-
+    //name: type = value;
+    preferenceID = 10;
+    preferenceStatus = 'offline';
 }
