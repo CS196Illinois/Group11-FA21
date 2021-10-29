@@ -1,1 +1,18 @@
 <input class="searchbar" placeholder="Enter name here">
+<div class="filters">
+    <h3 id="f1">Filters</h3>
+    <input type="checkbox" id="location">
+    <label for="location"> Location</label>
+    <br>
+    <input type="checkbox" id="Size">
+    <label for="Size"> Size of Group</label>
+    <br>
+    <input type="checkbox" id="atm">
+    <label for="atm"> Atmosphere</label>
+    <br>
+    <input type="checkbox" id="Major">
+    <label for="Major"> Major</label><br>
+</div>
+<div class="results" *ngFor="let person of people">
+    <button>{{person}}</button>
+</div>
