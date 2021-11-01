@@ -1,24 +1,27 @@
 .cal {
-    padding: 14px 28px;
+    padding: 14px 5px;
     font-size: 16px;
     margin-left: 4pt;
     margin-right: 5pt;
     width: 700px;
     background-color:silver;
-    margin-bottom: 25pt;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+.cal:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
 
 .settings {
-    padding: 14px 28px;
+    padding: 14px 5px;
     font-size: 16px;
     margin-right: 4pt;
     width: 700px;
     background-color:silver;
-    margin-bottom: 25pt;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-
+.settings:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
 .title{
     font-size: 30px;
     text-align: center;
