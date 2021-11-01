@@ -10,13 +10,40 @@
 .filters {
     margin-left: 70px;
     font-size: 20px;
-    padding-top: 0pt;
+    /* padding-top: 0pt; */
+    display: inline-block;
 }
 #f1 {
-    padding-bottom: 0px;
+    /* padding-bottom: 0px; */
     margin-bottom: 5px;
+    display: inline-block;
 }
 .results {
     text-align: center;
-    margin-bottom: 10pt;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 20pt;
+    align-items: center;
+    margin-left: 450px;
+    display: inline-block;
 }
+.cl {
+    text-align: center;
+    font-weight: bold;
+    font-size: 30pt;
+    margin-bottom: 0pt;
+    display: inline-block;
+    width: 50pt;
+    align-content: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+button {
+    margin: 5px;
+    font-size: 13pt;
+    background-color: lightgray;
+    border-radius: 8px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }

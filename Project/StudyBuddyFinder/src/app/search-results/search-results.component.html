@@ -1,6 +1,8 @@
 <input class="searchbar" placeholder="Enter name here">
+<br>
 <div class="filters">
     <h3 id="f1">Filters</h3>
+    <br>
     <input type="checkbox" id="location">
     <label for="location"> Location</label>
     <br>
@@ -13,6 +15,9 @@
     <input type="checkbox" id="Major">
     <label for="Major"> Major</label><br>
 </div>
-<div class="results" *ngFor="let person of people">
-    <button>{{person}}</button>
+<div class="results">
+    <div class="cl">
+        <p>{{ className }}</p>
+    </div>
+    <button *ngFor="let person of people">{{person}}</button>
 </div>

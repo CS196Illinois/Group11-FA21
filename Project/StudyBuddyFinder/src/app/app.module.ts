@@ -9,8 +9,11 @@ import { RouterModule, Routes } from '@angular/router';
 
 const appRoutes: Routes = [
 { path: '', component: HomepageComponent },
-{ path: 'search-results', component: SearchResultsComponent }
+{ path: 'search-results/:className', component: SearchResultsComponent },
+// { path: 'profile/:profileID', component: ProfileComponent }
 ];
+
+
 
 @NgModule({
   declarations: [
