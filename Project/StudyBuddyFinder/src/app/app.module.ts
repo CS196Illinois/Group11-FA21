@@ -6,6 +6,7 @@ import { HomepageComponent } from './homepage/homepage.component';
 import { HeaderComponent } from './homepage/header/header.component';
 import { SearchResultsComponent } from './search-results/search-results.component';
 import { RouterModule, Routes } from '@angular/router';
+import { UserinfoComponent } from './account-settings/userinfo/userinfo.component';
 
 const appRoutes: Routes = [
 { path: '', component: HomepageComponent },
@@ -20,7 +21,8 @@ const appRoutes: Routes = [
     AppComponent,
     HomepageComponent,
     HeaderComponent,
-    SearchResultsComponent
+    SearchResultsComponent,
+    UserinfoComponent
   ],
   imports: [
     BrowserModule,
