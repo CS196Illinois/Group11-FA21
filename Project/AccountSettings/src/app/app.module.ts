@@ -10,6 +10,9 @@ import { BasicsComponent } from './basics/basics.component';
 import { SearchComponent } from './classes/search/search.component';
 import { NavigationComponent } from './navigation/navigation.component';
 import { SettingsComponent } from './settings/settings.component';
+import { UserprofileComponent } from './userprofile/userprofile.component';
+import { UserbioComponent } from './userprofile/userbio/userbio.component';
+import { CommonclassesComponent } from './userprofile/commonclasses/commonclasses.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +22,10 @@ import { SettingsComponent } from './settings/settings.component';
     BasicsComponent,
     SearchComponent,
     NavigationComponent,
-    SettingsComponent
+    SettingsComponent,
+    UserprofileComponent,
+    UserbioComponent,
+    CommonclassesComponent
   ],
   schemas: [
     NO_ERRORS_SCHEMA
