@@ -8,6 +8,8 @@ import { PreferencesComponent } from './preferences/preferences.component';
 import { ClassesComponent } from './classes/classes.component';
 import { BasicsComponent } from './basics/basics.component';
 import { SearchComponent } from './classes/search/search.component';
+import { NavigationComponent } from './navigation/navigation.component';
+import { SettingsComponent } from './settings/settings.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +17,9 @@ import { SearchComponent } from './classes/search/search.component';
     PreferencesComponent,
     ClassesComponent,
     BasicsComponent,
-    SearchComponent
+    SearchComponent,
+    NavigationComponent,
+    SettingsComponent
   ],
   schemas: [
     NO_ERRORS_SCHEMA
@@ -27,6 +31,6 @@ import { SearchComponent } from './classes/search/search.component';
     ReactiveFormsModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent, PreferencesComponent, ClassesComponent, BasicsComponent, SearchComponent]
 })
 export class AppModule { }
