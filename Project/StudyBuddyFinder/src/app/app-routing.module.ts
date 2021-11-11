@@ -1,13 +1,13 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { Routes, RouterModule } from '@angular/router';
-import { AccountSettingsComponent } from './account-settings/account-settings.component';
+import { HomepageComponent } from './homepage/homepage.component';
+import { SearchResultsComponent } from './search-results/search-results.component';
 
 const routes: Routes = [
-  {
-    path: 'Settings',
-    component: AccountSettingsComponent
-  },
+    { path: '', component: HomepageComponent },
+    { path: 'search-results/:className', component: SearchResultsComponent },
+    // { path: 'profile/:profileID', component: ProfileComponent }
 ]
 
 
@@ -16,6 +16,7 @@ const routes: Routes = [
   imports: [
     CommonModule,
     RouterModule.forRoot(routes)
-  ]
+  ],
+  exports: [RouterModule]
 })
 export class AppRoutingModule { }

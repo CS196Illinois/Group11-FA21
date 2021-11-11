@@ -28,6 +28,6 @@ import { ShoppingEditComponent } from './shopping-list/shopping-edit/shopping-ed
     HttpClientModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent, HeaderComponent, RecipesComponent]
 })
 export class AppModule { }
