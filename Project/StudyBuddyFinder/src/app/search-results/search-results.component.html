@@ -19,5 +19,5 @@
     <div class="cl">
         <p>{{ className }}</p>
     </div>
-    <button *ngFor="let person of people">{{person}}</button>
+    <button *ngFor="let person of people" [routerLink] = "['/user', person]">{{person}}</button>
 </div>
