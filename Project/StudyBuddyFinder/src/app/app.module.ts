@@ -37,6 +37,10 @@ import { UserprofileComponent } from './userprofile/userprofile.component';
     AppRoutingModule
   ],
   providers: [],
-  bootstrap: [AppComponent, HomepageComponent, HeaderComponent]
+  bootstrap: [AppComponent,
+    HomepageComponent,
+    HeaderComponent,
+    SettingsComponent
+  ]
 })
 export class AppModule { }
