@@ -10,7 +10,9 @@ import { CalendarComponent } from './calendar/calendar.component';
 
 const appRoutes: Routes = [
 { path: '', component: HomepageComponent },
-{ path: 'search-results', component: SearchResultsComponent }
+{ path: 'search-results', component: SearchResultsComponent },
+{ path: 'calendar', component: CalendarComponent }
+
 ];
 
 @NgModule({
