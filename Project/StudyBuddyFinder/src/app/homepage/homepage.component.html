@@ -3,11 +3,35 @@
 </div>
 <div class="container">
     <div class="main">
-        <button class="btn btn-primary c1" routerLink="/search-results">CS124</button>
-        <button class="btn btn-primary c1" routerLink="/search-results">CS100</button>
-        <button class="btn btn-primary c1" routerLink="/search-results">PHYS211</button>
-        <button class="btn btn-primary c1" routerLink="/search-results">MATH241</button>
-        <button class="btn btn-primary c1" routerLink="/search-results">ENG100</button>
-        <button class="btn btn-primary c1" routerLink="/search-results">RHET105</button>
+
+        <button class="btn btn-primary c1" [routerLink]="['/search-results', 'cs124']">CS124</button>
+        <button class="btn btn-primary c1" [routerLink]="['/search-results', 'cs100']">CS100</button>
+        <button class="btn btn-primary c1" [routerLink]="['/search-results', 'phys211']">PHYS211</button>
+        <button class="btn btn-primary c1" [routerLink]="['/search-results', 'math241']">MATH241</button>
+        <button class="btn btn-primary c1" [routerLink]="['/search-results', 'eng100']">ENG100</button>
+        <button class="btn btn-primary c1" [routerLink]="['/search-results', 'rhet105']">RHET105</button>
+
+       <!-- <button class="btn btn-primary c1" >CS124</button>
+        <button class="btn btn-primary c1" >CS100</button>
+        <button class="btn btn-primary c1" >PHYS211</button>
+        <button class="btn btn-primary c1" >MATH241</button>
+        <button class="btn btn-primary c1" >ENG100</button>
+        <button class="btn btn-primary c1" >RHET105</button> -->
     </div>
 </div>
+
+<!-- 
+    {
+        classID: asdasd,
+        asdfasdfasdf,
+        asdfasdf,
+    },
+    {
+        asdasd
+    },
+    {
+        asdasd
+    }
+
+    array[0].classID
+ -->
