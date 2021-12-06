@@ -8,11 +8,20 @@ import { HeaderComponent } from './homepage/header/header.component';
 import { SearchResultsComponent } from './search-results/search-results.component';
 import { RouterModule, Routes } from '@angular/router';
 import { CalendarComponent } from './calendar/calendar.component';
+import { PreferencesComponent } from './preferences/preferences.component';
+import { BasicsComponent } from './basics/basics.component';
+import { ClassesComponent } from './classes/classes.component';
+import { SettingsComponent } from './settings/settings.component';
+import { UserprofileComponent } from './userprofile/userprofile.component';
 
 const appRoutes: Routes = [
 { path: '', component: HomepageComponent },
 { path: 'search-results', component: SearchResultsComponent },
-{ path: 'calendar', component: CalendarComponent }
+{ path: 'calendar', component: CalendarComponent },
+{ path: '', component: HomepageComponent },
+{ path: 'search-results/:className', component: SearchResultsComponent },
+{ path: 'user/:username', component: UserprofileComponent},
+{ path: 'settings', component: SettingsComponent}
 
 ];
 
@@ -22,7 +31,12 @@ const appRoutes: Routes = [
     HomepageComponent,
     HeaderComponent,
     SearchResultsComponent,
-    CalendarComponent
+    CalendarComponent,
+    PreferencesComponent,
+    HeaderComponent,
+    BasicsComponent,
+    ClassesComponent,
+    SettingsComponent
   ],
   imports: [
     BrowserModule,
