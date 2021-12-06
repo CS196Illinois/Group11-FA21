@@ -7,16 +7,14 @@ import { HomepageComponent } from './homepage/homepage.component';
 import { HeaderComponent } from './homepage/header/header.component';
 import { SearchResultsComponent } from './search-results/search-results.component';
 import { RouterModule, Routes } from '@angular/router';
-import { SettingsComponent } from './settings/settings.component';
-import { PreferencesComponent } from './preferences/preferences.component';
-import { BasicsComponent } from './basics/basics.component';
-import { ClassesComponent } from './classes/classes.component';
-import { NavigationComponent } from './navigation/navigation.component';
-import { UserprofileComponent } from './userprofile/userprofile.component';
+import { CalendarComponent } from './calendar/calendar.component';
 
+const appRoutes: Routes = [
+{ path: '', component: HomepageComponent },
+{ path: 'search-results', component: SearchResultsComponent },
+{ path: 'calendar', component: CalendarComponent }
 
-
-
+];
 
 @NgModule({
   declarations: [
@@ -24,17 +22,12 @@ import { UserprofileComponent } from './userprofile/userprofile.component';
     HomepageComponent,
     HeaderComponent,
     SearchResultsComponent,
-    SettingsComponent, 
-    PreferencesComponent,
-    BasicsComponent,
-    ClassesComponent, 
-    NavigationComponent,
-    UserprofileComponent,
-    HeaderComponent
+    CalendarComponent
   ],
   imports: [
-    BrowserModule, 
-    AppRoutingModule
+    BrowserModule,
+    RouterModule.forRoot(appRoutes)
+
   ],
   providers: [],
   bootstrap: [AppComponent, HomepageComponent, HeaderComponent]

@@ -24,5 +24,4 @@ export class SearchResultsComponent implements OnInit {
   }
 
   //localhost:5000/get-students-class/:classID
-
 }
