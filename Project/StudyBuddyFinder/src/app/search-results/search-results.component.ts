@@ -9,10 +9,10 @@ import {ActivatedRoute} from '@angular/router';
 export class SearchResultsComponent implements OnInit {
   people: String[] = [
     "Sailaja",
-    " Shreya",
-    " Dimple",
-    " Ishq",
-    " Sahithya"
+    "Shreya",
+    "Dimple",
+    "Ishq",
+    "Sahithya"
   ];
 
   className!: String;
